@@ -1,0 +1,25 @@
+#Customer-Order Django Application
+
+This project demonstrates a simple Customer-Order relationship using Django models.
+
+## Features
+- Manage customers and their associated orders.
+- Automatically track order creation dates and amounts.
+
+---
+
+### Prerequisites
+- Python 3.8+
+- pip (Python package manager)
+- Git
+- PostgreSQL (or SQLite for testing)
+
+---
+
+### Installation Steps
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+python manage.py migrate
+python manage.py runserver
